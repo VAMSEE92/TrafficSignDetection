@@ -15,12 +15,12 @@ The algorithm approaches the problem into two stages
 In Non Maximal Suppression, YOLO suppresses all bounding boxes that have lower probability scores.
 YOLO achieves this by first looking at the probability scores associated with each decision and taking the largest one. Following this, it suppresses the bounding boxes having the largest Intersection over Union with the current high probability bounding box.
 #####
-![yolo working](http://url/to/img.png)
+![yolo working](https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Images/grids.png)
 #####
 ### Yolo Architecture
 YOLO’s architecture has a total of 24 convolutional layers with 2 fully connected layers at the end. 
 #####
-![architecture](http://url/to/img.png)
+![architecture](https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Images/archetecture.png)
 #####
 ### YOLO Vs other detectors
 Methods that use Region Proposal Networks thus end up performing multiple iterations for the same image, while YOLO gets away with a single iteration.
@@ -37,16 +37,16 @@ Detailed yolov3 implementation is present in the notebook
 ####
 Image before prediction
 
-![test Image](https://test.jpg)
+![test Image](https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Images/test.jpg)
 
 Predictions in Image
 
-![predictions](https://predictions.jpg)
+![predictions](https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Images/predictions.jpg)
 #### Predicting from video
 Video before prediction
 #####
-https://original.mp4
+https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Videos/tes.mp4
 #####
 Predicted Video
 #####
-https://predicted.mp4
+https://github.com/VAMSEE92/TrafficSignDetection/blob/main/Videos/results.mp4
